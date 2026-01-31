@@ -1,4 +1,4 @@
-# Device Table
+# Device Type Table
 
 This table describles devices and their respective identification GUIDs in the
 Operational System's device list.
@@ -13,67 +13,51 @@ Operational System's device list.
 </thead>
 <tbody>
   <tr>
+    <td colspan="2">Unknown Device</td>
+    <td rowspan="1">00000030-0000-0000-0000-000000000000</td>
+    <td></td>
+  </tr>
+
+  <tr>
     <td colspan="2">CPU Core</td>
     <td>1140b973-9218-4f33-947e-257142861ef2</td>
     <td></td>
   </tr>
+
   <tr>
     <td colspan="2">Block Device</td>
-    <td rowspan="4">7246d220-ac0b-4e45-872b-b67e0d84deae</td>
+    <td rowspan="6">7246d220-ac0b-4e45-872b-b67e0d84deae</td>
     <td></td>
   </tr>
-  <tr>
-    <td></td>
-    <td>IDE HDD</td>
-    <td>0x0001</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>SATA HDD</td>
-    <td>0x0002</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>SATA SSD</td>
-    <td>0x0003</td>
-  </tr>
+  <tr> <td></td> <td>IDE HDD</td> <td>0x0001</td> </tr>
+  <tr> <td></td> <td>IDE SSD</td> <td>0x0002</td> </tr>
+  <tr> <td></td> <td>IDE ODD</td> <td>0x0003</td> </tr>
+  <tr> <td></td> <td>SATA HDD</td> <td>0x0004</td> </tr>
+  <tr> <td></td> <td>SATA SSD</td> <td>0x0005</td> </tr>
+
   <tr>
     <td colspan="2">Keyboard</td>
     <td rowspan="3">f2be2916-060c-432f-917f-bf8d366fc757</td>
     <td></td>
   </tr>
-  <tr>
-    <td></td>
-    <td>ps/2 Keyboard</td>
-    <td>0x0001</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>USB Keyboard</td>
-    <td>0x0002</td>
-  </tr>
+  <tr> <td></td> <td>ps/2 Keyboard</td> <td>0x0001</td> </tr>
+  <tr> <td></td> <td>USB Keyboard</td> <td>0x0002</td> </tr>
+
   <tr>
     <td colspan="2">Mouse</td>
     <td rowspan="3">e27d8ec6-0557-4893-b904-97b9da9ff4c7</td>
     <td></td>
   </tr>
-  <tr>
-    <td></td>
-    <td>ps/2 Mouse</td>
-    <td>0x0001</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>USB Mouse</td>
-    <td>0x0002</td>
-  </tr>
-</tbody></table>
+  <tr> <td></td> <td>ps/2 Mouse</td> <td>0x0001</td> </tr>
+  <tr> <td></td> <td>USB Mouse</td> <td>0x0002</td> </tr>
+
+</tbody>
+</table>
 
 
 
 
 <!-- Cool already generated GUIDs to use
-e2e46cb0-9331-4e9f-92cd-c99a9d603be7
 cd381109-e932-4c55-a230-9bb8521d580b
 de5b983a-d800-4f20-9c2e-21fb3232af42
 b1adaff8-a4c5-48f9-af9a-fba322e1fe54
